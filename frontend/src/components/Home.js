@@ -5,7 +5,7 @@ import game from "../images/gameall.png";
 import { Card, Col, Row } from "react-bootstrap";
 
 import I1 from "../images/game2.png";
-import I2 from "../images/game4.png";
+import I2 from "../images/HOME.jpg";
 import I3 from "../images/game5.png";
 import I4 from "../images/game6.png";
 import I5 from "../images/XO 1 star.png";
