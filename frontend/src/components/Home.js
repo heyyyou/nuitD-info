@@ -9,7 +9,7 @@ import I2 from "../images/game4.png";
 import I3 from "../images/game5.png";
 import I4 from "../images/game6.png";
 import I5 from "../images/XO 1 star.png";
-import I6 from "../images/xo.png";
+import I6 from "../images/Quiz.jpg";
 
 const Home = () => {
   return (
@@ -85,56 +85,55 @@ const Home = () => {
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-              <Card.Img
-                src={I2}
-                variant="top"
-                className="h-100"
-                style={{ height: "200px", borderRadius: "0px", opacity: '0.5' }}
-              />
+            <Card.Img
+              src={I2}
+              variant="top"
+              className="h-100"
+              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+            />
           </Card>
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-              <Card.Img
-                src={I3}
-                variant="top"
-                className="h-100"
-                style={{ height: "200px", borderRadius: "0px", opacity: '0.5' }}
-              />
+            <Card.Img
+              src={I3}
+              variant="top"
+              className="h-100"
+              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+            />
           </Card>
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-              <Card.Img
-                src={I4}
-                variant="top"
-                className="h-100"
-                style={{ height: "200px", borderRadius: "0px", opacity: '0.5' }}
-              />
+            <Card.Img
+              src={I4}
+              variant="top"
+              className="h-100"
+              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+            />
           </Card>
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-              <Card.Img
-                src={I5}
-                variant="top"
-                className="h-100"
-                style={{ height: "200px", borderRadius: "0px", opacity: '0.5' }}
-              />
+            <Card.Img
+              src={I5}
+              variant="top"
+              className="h-100"
+              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+            />
           </Card>
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-              <Card.Img
-                src={I1}
-                variant="top"
-                className="h-100"
-                style={{ height: "200px", borderRadius: "0px", opacity: '0.5' }}
-              />
+            <Card.Img
+              src={I1}
+              variant="top"
+              className="h-100"
+              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+            />
           </Card>
         </Col>
       </Row>
-
     </div>
   );
 };
