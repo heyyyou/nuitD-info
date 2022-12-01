@@ -89,7 +89,7 @@ const Home = () => {
               src={I2}
               variant="top"
               className="h-100"
-              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
+              style={{ height: "200px", borderRadius: "0px" }}
             />
           </Card>
         </Col>

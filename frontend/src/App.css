@@ -69,7 +69,10 @@ nav {
   background-color: #ffa8a8;
 }
 .textLogo {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+
+  margin-right: 65.5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* Home page */
 #products_heading {
