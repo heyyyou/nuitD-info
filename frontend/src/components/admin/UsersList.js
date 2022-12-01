@@ -101,7 +101,7 @@ const UsersList = ({ history }) => {
 					<div className='card text-white bg-info o-hidden h-100 mb-5'>
 						<div className='card-body'>
 							<div className='text-center card-font-size'>
-								Users
+								Utilisateurs
 								<br /> <b>{users && users.length}</b>
 							</div>
 						</div>

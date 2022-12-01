@@ -19,9 +19,9 @@ const Start = ({props}) => {
  
     return (
         <Intro>
-            <h1>Take the quiz.</h1>
-            <h4>Whenever, you want.</h4>
-            <Button onClick={startQuiz} css={btnCSS}>Begin</Button>
+            <h1>Faire le Quiz</h1>
+            <h4>Quand tu le souhaites.</h4>
+            <Button onClick={startQuiz} css={btnCSS}>Commencer</Button>
         </Intro>
     )
 }

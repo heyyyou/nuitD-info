@@ -19,12 +19,12 @@ const GameOver = ({pts}) => {
     return (
         <>
             
-            <Title>Game Over</Title>
-            <Points>You did {pts} out of 9!</Points>
+            <Title>Perdu...</Title>
+            <Points>Tu as obtenu une note de {pts} sur 9 !</Points>
             {pts >= 4 ?  
-            <Link to='/' className='btn btn-dark'>Retour a l'acceuil</Link>
+            <Link to='/' className='btn btn-dark'>Retour a l'accueil</Link>
             :
-            <Button onClick={refreshPage}>Jouez le quiz a nouveau</Button>
+            <Button onClick={refreshPage}>Jouer le quiz à nouveau</Button>
             }
         </>
     )
