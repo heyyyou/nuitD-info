@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import money from "../../images/coin-us-dollar-icon.png";
 import chat from "../../images/chat-2-icon.png";
-import logo from "../../images/logo1.png";
+import logo from "../../images/logoIST.png";
+import logo2 from "../../images/logoIST2.png";
 
 import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";
