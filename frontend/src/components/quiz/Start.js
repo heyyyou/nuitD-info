@@ -20,7 +20,7 @@ const Start = ({props}) => {
     return (
         <Intro>
             <h1>Faire le Quiz</h1>
-            <h4>Quand tu le souhaites.</h4>
+            <h4>Bonne chance.</h4>
             <Button onClick={startQuiz} css={btnCSS}>Commencer</Button>
         </Intro>
     )

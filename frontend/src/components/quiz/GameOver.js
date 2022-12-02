@@ -19,7 +19,7 @@ const GameOver = ({pts}) => {
     return (
         <>
             
-            <Title>Perdu...</Title>
+            <Title>Quiz terminé !</Title>
             <Points>Tu as obtenu une note de {pts} sur 9 !</Points>
             {pts >= 4 ?  
             <Link to='/' className='btn btn-dark'>Retour a l'accueil</Link>
