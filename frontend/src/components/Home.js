@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
 import game from "../images/gameall.png";
 import { Card, Col, Row } from "react-bootstrap";
+//import { Carousel } from "react-responsive-carousel";
 
 import I1 from "../images/game2.png";
 import I2 from "../images/HOME.jpg";
-import I3 from "../images/game5.png";
+import I3 from "../images/sidaction.jpg";
 import I4 from "../images/game6.png";
 import I5 from "../images/XO 1 star.png";
 import I6 from "../images/Quiz.jpg";
@@ -96,16 +97,18 @@ const Home = () => {
           </Card>
         </Col>
         <Col className="mb-3">
-          <Card className="p-3 rounded h-100">
-            <Card.Img
-              src={I3}
-              variant="top"
-              className="h-100"
-              style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
-            />
-          </Card>
+          <a href="https://www.sida-info-service.org/">
+            <Card className="p-3 rounded h-100">
+              <Card.Img
+                src={I3}
+                variant="top"
+                className="h-100"
+                style={{ height: "200px", borderRadius: "0px" }}
+              />
+            </Card>
+          </a>
         </Col>
-        <Col className="mb-3">
+        {/* <Col className="mb-3">
           <Card className="p-3 rounded h-100">
             <Card.Img
               src={I4}
@@ -134,7 +137,7 @@ const Home = () => {
               style={{ height: "200px", borderRadius: "0px", opacity: "0.5" }}
             />
           </Card>
-        </Col>
+        </Col> */}
       </Row>
     </div>
   );

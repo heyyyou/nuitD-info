@@ -666,9 +666,9 @@ background: linear-gradient(0deg, rgba(21,126,191,1) 0%, rgba(85,166,217,1) 50%,
   background: rgb(242, 228, 216);
   background: linear-gradient(
     0deg,
-    rgba(242, 228, 216, 1) 0%,
-    rgba(85, 166, 217, 1) 50%,
-    rgba(21, 126, 191, 1) 100%
+    rgb(255, 255, 255) 0%,
+    #fcc2c2 50%,
+    #ffa8a8
   );
 }
 /* Xo Game */
@@ -741,6 +741,11 @@ div.square {
 div.result {
   font-size: 2rem;
   padding: 10px;
+}
+.alert {
+  text-align: center;
+  z-index: -1;
+  margin-top: -29%;
 }
 div.result.green {
   background-color: #5a5;
