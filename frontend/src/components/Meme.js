@@ -10,7 +10,15 @@ import img7 from '../images/Meme/m7.jpg';
 import img8 from '../images/Meme/m8.jpg';
 import img9 from '../images/Meme/m9.jpg';
 import img10 from '../images/Meme/m10.jpg';
-import ReactCardCarousel from 'react-card-carousel';
+import img11 from '../images/Meme/m11.jpeg';
+import img12 from '../images/Meme/m12.jpeg';
+import img13 from '../images/Meme/m13.jpg';
+import img14 from '../images/Meme/m14.jpg';
+import img15 from '../images/Meme/m15.jpg';
+import img16 from '../images/Meme/m16.jpg';
+import img17 from '../images/Meme/m17.jpg';
+import img18 from '../images/Meme/m18.jpg';
+import img19 from '../images/Meme/m19.jpg';
 
 function Meme() {
 
