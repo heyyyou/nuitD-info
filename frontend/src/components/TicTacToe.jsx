@@ -142,6 +142,7 @@ const TicTacToe = () => {
             />
           ))}
         </Board>
+
         {/* {!!winner && winner === 'x' && (
               <div className="result green">
                 Tu as gagné !
