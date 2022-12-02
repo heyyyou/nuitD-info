@@ -30,8 +30,6 @@ import TicTacToe from "./components/TicTacToe";
 import Meme from "./components/Meme";
 
 import "./App.css";
-import AllGames from "./components/AllGames";
-import Video from "./components/Video";
 
 function App() {
   useEffect(() => {
@@ -49,7 +47,7 @@ function App() {
           <Route path="/quiz" component={QuizScreen} exact />
           <Route path="/game" component={TicTacToe} exact />
           <Route path="/meme" component={Meme} exact />
-          <Route path="/video" component={Video} exact />
+          <Route path="/video" component={Home} exact />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/password/forgot" component={ForgotPassword} exact />

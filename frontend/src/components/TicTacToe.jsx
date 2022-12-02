@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import v1 from "../video/8ara9.mp4";
 import v2 from "../video/rabe7.mp4";
 import gif from "../images/76912-man-workout (1).gif";
+import gif2 from "../images/gif2.gif";
 import gifmorp from "../images/morpion.gif";
 import imgmorp from "../images/Warning_morpions.png";
 import { Link } from "react-router-dom";
@@ -124,7 +125,7 @@ const TicTacToe = () => {
           <>
             {v === "v2" && (
               <>
-                <img src={gif} style={{ width: "300px" }} />
+                <img src={gif2} style={{ width: "300px" }} />
                 <p>Perdu</p>
               </>
             )}
