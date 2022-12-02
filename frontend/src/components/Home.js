@@ -86,12 +86,14 @@ const Home = () => {
         </Col>
         <Col className="mb-3">
           <Card className="p-3 rounded h-100">
-            <Card.Img
-              src={I2}
-              variant="top"
-              className="h-100"
-              style={{ height: "200px", borderRadius: "0px" }}
-            />
+            <Link to={`/meme`}>
+              <Card.Img
+                src={I2}
+                variant="top"
+                className="h-100"
+                style={{ height: "200px", borderRadius: "0px" }}
+              />
+            </Link>
           </Card>
         </Col>
         <Col className="mb-3">

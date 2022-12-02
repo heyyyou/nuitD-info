@@ -29,6 +29,7 @@ import { useSelector } from 'react-redux'
 import store from './store'
 import QuizScreen from './components/QuizScreen'
 import TicTacToe from './components/TicTacToe'
+import Meme from './components/Meme'
 
 import './App.css'
 import AllGames from './components/AllGames'
@@ -49,6 +50,7 @@ function App() {
 					<Route path='/' component={Home} exact />
 					<Route path='/quiz' component={QuizScreen} exact />
 					<Route path='/game' component={TicTacToe} exact />
+					<Route path='/meme' component={Meme} exact />
 					<Route path='/video' component={Video} exact />
 					<Route path='/login' component={Login} />
 					<Route path='/register' component={Register} />
