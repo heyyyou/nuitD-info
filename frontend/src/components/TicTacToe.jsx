@@ -6,8 +6,8 @@ import { useState, useEffect } from "react";
 import v1 from "../video/8ara9.mp4";
 import v2 from "../video/rabe7.mp4";
 import gif from "../images/76912-man-workout (1).gif";
-import gifmorp from '../images/morpion.gif';
-import imgmorp from '../images/Warning_morpion.png';
+import gifmorp from "../images/morpion.gif";
+import imgmorp from "../images/Warning_morpion.png";
 import { Link } from "react-router-dom";
 
 import { Modal } from "react-bootstrap";
