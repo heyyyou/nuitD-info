@@ -157,12 +157,8 @@ const Register = ({ history }) => {
             <div className="col-xl-10">
               <div className="rounded-3 text-black">
                 <div className="row g-0">
-                <div className="col-lg-6 d-flex align-items-centerp-0 mt-5">
-                    <img
-                      src={image}
-                      className="w-100 h-100 "
-                      alt="signin"
-                    />
+                  <div className="col-lg-6 d-flex align-items-centerp-0 mt-5">
+                    <img src={image} className="w-100 h-100 " alt="signin" />
                   </div>
                   <div className="col-lg-6">
                     <div className="card-body p-md-5 mx-md-4">
@@ -170,7 +166,6 @@ const Register = ({ history }) => {
                         onSubmit={submitHandler}
                         encType="multipart/form-data"
                       >
-
                         <div className="form-group">
                           <label htmlFor="email_field">Nom</label>
                           <input
@@ -244,7 +239,7 @@ const Register = ({ history }) => {
                           type="submit"
                           className="btn btn-block text-white mt-4"
                           disabled={loading ? true : false}
-                          style={{backgroundColor: "#190D3F"}}
+                          style={{ backgroundColor: "#190D3F" }}
                         >
                           S'inscrire
                         </button>
@@ -257,7 +252,6 @@ const Register = ({ history }) => {
                       </form>
                     </div>
                   </div>
-                 
                 </div>
               </div>
             </div>

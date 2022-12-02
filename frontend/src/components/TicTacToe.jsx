@@ -35,7 +35,7 @@ const TicTacToe = () => {
 
   const [test, setTest] = useState(true);
 
-  const [v, setV] = useState("v1");
+  const [v, setV] = useState("v3");
 
   useEffect(() => {
     const isComputerTurn =
@@ -120,23 +120,29 @@ const TicTacToe = () => {
   return (
     <div>
       <div className="text-center">
-        {v === "v2" && (
+        {(v === "v2" || v === "v1") && (
           <>
-            <img src={gif} style={{ width: "300px" }} />
-            <p>
-              Monsieur le sauveteur nous sommes désolés de vous informer que
-              vous avez échoué de sauver le soldat , <br /> si vous voulez
-              rejouez veuillez répondre a ce quiz
-            </p>
+            {v === "v2" && (
+              <>
+                <img src={gif} style={{ width: "300px" }} />
+                <p>Perdu</p>
+              </>
+            )}
+            {v === "v1" && (
+              <>
+                <img src={gif} style={{ width: "300px" }} />
+                <p>Gagné</p>
+              </>
+            )}
             <Link to="/quiz" className="btn btn-primary">
               Lancer le quiz
             </Link>
           </>
         )}
       </div>
+      {/* <img src={gifmorp} alt="gif" /> */}
+
       <main style={{ paddingTop: `${v === "v2" ? "10px" : "150px"} ` }}>
-        <img src={gifmorp} alt="gif" />
-        <img src={imgmorp} alt="gif" />
         <Board>
           {squares.map((square, index) => (
             <Square
@@ -158,14 +164,14 @@ const TicTacToe = () => {
               </div>
             )} */}
 
-        <Modal show={show} onHide={handleClose} keyboard={false} size="xl">
+        {/* <Modal show={show} onHide={handleClose} keyboard={false} size="xl">
           <Modal.Header closeButton>
             <Modal.Title>
               {" "}
               {v == "v1" ? "Tu as gagné ! " : "Tu as perdu !"}
             </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
+          </Modal.Header> */}
+        {/* <Modal.Body>
             <video className="h-100 w-100" autoPlay={true} loop muted>
               {v == "v1" ? (
                 <source src={v2} type="video/mp4" />
@@ -174,9 +180,12 @@ const TicTacToe = () => {
               )}
               <source src={v} type="video/mp4" />
             </video>
-          </Modal.Body>
-        </Modal>
+          </Modal.Body> */}
+        {/* </Modal> */}
       </main>
+      <div class="alert">
+        <img src={imgmorp} alt="gif" width="60%" height="60%" />
+      </div>
     </div>
   );
 };
