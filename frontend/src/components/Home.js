@@ -95,14 +95,16 @@ const Home = () => {
           </Card>
         </Col>
         <Col className="mb-3">
-          <Card className="p-3 rounded h-100">
-            <Card.Img
-              src={I3}
-              variant="top"
-              className="h-100"
-              style={{ height: "200px", borderRadius: "0px" }}
-            />
-          </Card>
+          <a href="https://www.sida-info-service.org/">
+            <Card className="p-3 rounded h-100">
+              <Card.Img
+                src={I3}
+                variant="top"
+                className="h-100"
+                style={{ height: "200px", borderRadius: "0px" }}
+              />
+            </Card>
+          </a>
         </Col>
         {/* <Col className="mb-3">
           <Card className="p-3 rounded h-100">
